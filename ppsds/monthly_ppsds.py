@@ -8,7 +8,7 @@ network = "BM"
 station = "IPAN"
 channel = "Z"
 
-path_to_inv = "/home/andre/documents/pos_doc/codes/OBS_navio/data/BM/BM.IPAN.Z.dataless"
+path_to_inv = "/home/andre/Documents/pos_doc/codes/OBS-navio/data/BM/BM.IPAN.Z.dataless"
 inv = read_inventory(path_to_inv)
 
 NOISE_MODEL_FILE = "noise_models.npz"
@@ -21,7 +21,7 @@ labels = ["Oct/2025", "Nov/2025", "Dec/2025", "Jan/2026", "Feb/2026", "Mar/2026"
 
 for n, month in enumerate(months):
     ax = axes[n//4, n%4]
-    path_to_data = "/home/andre/documents/pos_doc/codes/OBS_navio/data/%s/%s/*%s*%s*"%(network, station, month, channel)
+    path_to_data = "/home/andre/Documents/pos_doc/codes/OBS-navio/data/%s/%s/*%s*%s*"%(network, station, month, channel)
     try:
         st = read(path_to_data)
     except:
@@ -37,7 +37,7 @@ for n, month in enumerate(months):
     data = ppsd.current_histogram
     xedges = ppsd.period_xedges
     yedges = ppsd.db_bin_edges
-    
+
     X, Y = np.meshgrid(xedges, yedges)
     im = ax.pcolormesh(
         X,
@@ -46,16 +46,16 @@ for n, month in enumerate(months):
         cmap="viridis",
         shading="auto"
     )
-    
+
     ax.set_xscale("log")
     ax.grid(True, which="both", alpha=0.3)
     ax.set_xlim([0.01, 120])
-    
+
     ax.set_ylabel("Amplitude [$m^2/s^4/Hz$] [dB]")
     ax.set_xlabel("Period [s]")
-    
+
     ax.set_title(labels[n])
-    
+
     ax.plot(noise_max[0], noise_max[1], '0.4', linewidth=2)
     ax.plot(noise_min[0], noise_min[1], '0.4', linewidth=2)
 
