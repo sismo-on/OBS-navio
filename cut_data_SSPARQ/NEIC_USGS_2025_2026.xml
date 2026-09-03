@@ -1,0 +1,3488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?starttime=2025-07-29T000000.000000&amp;endtime=2025-08-04T000000.000000&amp;minmagnitude=5.5">
+    <creationInfo>
+      <creationTime>2026-09-03T17:18:37.000000Z</creationTime>
+    </creationInfo>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxxc&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxxc">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxxc/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxxc/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>151 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxxc/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxxc" catalog:eventsource="us" catalog:eventid="6000qxxc">
+        <time>
+          <value>2025-08-03T18:07:33.204000Z</value>
+        </time>
+        <latitude>
+          <value>52.4978</value>
+        </latitude>
+        <longitude>
+          <value>160.6678</value>
+        </longitude>
+        <depth>
+          <value>9000.0</value>
+          <uncertainty>1836.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>149</usedPhaseCount>
+          <usedStationCount>149</usedStationCount>
+          <standardError>0.67</standardError>
+          <azimuthalGap>43.0</azimuthalGap>
+          <minimumDistance>1.334</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8790.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxxc/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxxc" catalog:eventsource="us" catalog:eventid="6000qxxc">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.063</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxxc/us/1760741502040</originID>
+        <stationCount>24</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxvr&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxvr">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxvr/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxvr/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>156 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxvr/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxvr" catalog:eventsource="us" catalog:eventid="6000qxvr">
+        <time>
+          <value>2025-08-03T14:26:45.416000Z</value>
+        </time>
+        <latitude>
+          <value>52.4283</value>
+        </latitude>
+        <longitude>
+          <value>160.6912</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1805.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>102</usedPhaseCount>
+          <usedStationCount>102</usedStationCount>
+          <standardError>0.74</standardError>
+          <azimuthalGap>50.0</azimuthalGap>
+          <minimumDistance>1.377</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8650.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxvr/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxvr" catalog:eventsource="us" catalog:eventid="6000qxvr">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.098</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxvr/us/1760741502040</originID>
+        <stationCount>10</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxt4&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxt4">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxt4/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxt4/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>123 km E of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxt4/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxt4" catalog:eventsource="us" catalog:eventid="6000qxt4">
+        <time>
+          <value>2025-08-03T05:37:55.148000Z</value>
+        </time>
+        <latitude>
+          <value>50.5853</value>
+        </latitude>
+        <longitude>
+          <value>157.8643</value>
+        </longitude>
+        <depth>
+          <value>30000.0</value>
+          <uncertainty>1869.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>117</usedPhaseCount>
+          <usedStationCount>117</usedStationCount>
+          <standardError>1.05</standardError>
+          <azimuthalGap>43.0</azimuthalGap>
+          <minimumDistance>2.49</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6300.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxt4/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxt4" catalog:eventsource="us" catalog:eventid="6000qxt4">
+        <mag>
+          <value>6.8</value>
+          <uncertainty>0.053</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxt4/us/1760741502040</originID>
+        <stationCount>34</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxsv&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxsv">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsv/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsv/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Pacific-Antarctic Ridge</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxsv/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxsv" catalog:eventsource="us" catalog:eventid="6000qxsv">
+        <time>
+          <value>2025-08-03T04:57:10.505000Z</value>
+        </time>
+        <latitude>
+          <value>-55.2284</value>
+        </latitude>
+        <longitude>
+          <value>-128.6508</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1811.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>67</usedPhaseCount>
+          <usedStationCount>67</usedStationCount>
+          <standardError>0.82</standardError>
+          <azimuthalGap>34.0</azimuthalGap>
+          <minimumDistance>30.434</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>11970.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxsv/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxsv" catalog:eventsource="us" catalog:eventid="6000qxsv">
+        <mag>
+          <value>6.3</value>
+          <uncertainty>0.068</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsv/us/1760741502040</originID>
+        <stationCount>21</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxsd&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxsd">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsd/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsd/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>Pacific-Antarctic Ridge</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxsd/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxsd" catalog:eventsource="us" catalog:eventid="6000qxsd">
+        <time>
+          <value>2025-08-03T02:26:17.530000Z</value>
+        </time>
+        <latitude>
+          <value>-55.3641</value>
+        </latitude>
+        <longitude>
+          <value>-127.8359</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1850.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>31</usedPhaseCount>
+          <usedStationCount>31</usedStationCount>
+          <standardError>1.17</standardError>
+          <azimuthalGap>65.0</azimuthalGap>
+          <minimumDistance>32.522</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9200.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxsd/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxsd" catalog:eventsource="us" catalog:eventid="6000qxsd">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.086</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxsd/us/1760741502040</originID>
+        <stationCount>13</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxpd&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxpd">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxpd/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxpd/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>4 km S of Xagacía, Mexico</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxpd/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxpd" catalog:eventsource="us" catalog:eventid="6000qxpd">
+        <time>
+          <value>2025-08-02T17:58:45.419000Z</value>
+        </time>
+        <latitude>
+          <value>17.1124</value>
+        </latitude>
+        <longitude>
+          <value>-96.2645</value>
+        </longitude>
+        <depth>
+          <value>62566.0</value>
+          <uncertainty>3909.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>285</usedPhaseCount>
+          <usedStationCount>275</usedStationCount>
+          <standardError>0.93</standardError>
+          <azimuthalGap>42.0</azimuthalGap>
+          <minimumDistance>0.45</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>4680.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxpd/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxpd" catalog:eventsource="us" catalog:eventid="6000qxpd">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.034</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxpd/us/1760741502040</originID>
+        <stationCount>82</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxn6&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxn6">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxn6/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxn6/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>165 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxn6/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxn6" catalog:eventsource="us" catalog:eventid="6000qxn6">
+        <time>
+          <value>2025-08-02T14:14:03.328000Z</value>
+        </time>
+        <latitude>
+          <value>51.5911</value>
+        </latitude>
+        <longitude>
+          <value>159.4631</value>
+        </longitude>
+        <depth>
+          <value>17000.0</value>
+          <uncertainty>860.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>112</usedPhaseCount>
+          <usedStationCount>111</usedStationCount>
+          <standardError>0.61</standardError>
+          <azimuthalGap>85.0</azimuthalGap>
+          <minimumDistance>1.519</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8650.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxn6/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxn6" catalog:eventsource="us" catalog:eventid="6000qxn6">
+        <mag>
+          <value>6.0</value>
+          <uncertainty>0.069</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxn6/us/1760741502040</originID>
+        <stationCount>20</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxi9&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxi9">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxi9/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxi9/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>32 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxi9/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxi9" catalog:eventsource="us" catalog:eventid="6000qxi9">
+        <time>
+          <value>2025-08-01T20:08:12.598000Z</value>
+        </time>
+        <latitude>
+          <value>50.4404</value>
+        </latitude>
+        <longitude>
+          <value>156.3974</value>
+        </longitude>
+        <depth>
+          <value>79264.0</value>
+          <uncertainty>6891.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>184</usedPhaseCount>
+          <usedStationCount>184</usedStationCount>
+          <standardError>0.64</standardError>
+          <azimuthalGap>43.0</azimuthalGap>
+          <minimumDistance>2.791</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8600.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxi9/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxi9" catalog:eventsource="us" catalog:eventid="6000qxi9">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.029</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxi9/us/1760741502040</originID>
+        <stationCount>417</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxgb&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxgb">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxgb/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxgb/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>191 km E of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxgb/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxgb" catalog:eventsource="us" catalog:eventid="6000qxgb">
+        <time>
+          <value>2025-08-01T18:53:10.397000Z</value>
+        </time>
+        <latitude>
+          <value>52.7977</value>
+        </latitude>
+        <longitude>
+          <value>161.4392</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1713.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>196</usedPhaseCount>
+          <usedStationCount>194</usedStationCount>
+          <standardError>0.77</standardError>
+          <azimuthalGap>56.0</azimuthalGap>
+          <minimumDistance>1.704</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7410.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxgb/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxgb" catalog:eventsource="us" catalog:eventid="6000qxgb">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.02</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxgb/us/1760741502040</originID>
+        <stationCount>848</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxfn&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxfn">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxfn/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxfn/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>215 km ESE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxfn/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxfn" catalog:eventsource="us" catalog:eventid="6000qxfn">
+        <time>
+          <value>2025-08-01T18:20:45.177000Z</value>
+        </time>
+        <latitude>
+          <value>50.2099</value>
+        </latitude>
+        <longitude>
+          <value>159.0659</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1726.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>219</usedPhaseCount>
+          <usedStationCount>213</usedStationCount>
+          <standardError>0.71</standardError>
+          <azimuthalGap>28.0</azimuthalGap>
+          <minimumDistance>2.829</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7260.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxfn/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxfn" catalog:eventsource="us" catalog:eventid="6000qxfn">
+        <mag>
+          <value>6.1</value>
+          <uncertainty>0.05</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxfn/us/1760741502040</originID>
+        <stationCount>39</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qxae&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qxae">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qxae/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qxae/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>104 km S of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxae/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qxae" catalog:eventsource="us" catalog:eventid="6000qxae">
+        <time>
+          <value>2025-08-01T13:44:14.297000Z</value>
+        </time>
+        <latitude>
+          <value>51.9877</value>
+        </latitude>
+        <longitude>
+          <value>158.3749</value>
+        </longitude>
+        <depth>
+          <value>23000.0</value>
+          <uncertainty>1878.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>107</usedPhaseCount>
+          <usedStationCount>107</usedStationCount>
+          <standardError>0.67</standardError>
+          <azimuthalGap>112.0</azimuthalGap>
+          <minimumDistance>1.051</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8170.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qxae/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qxae" catalog:eventsource="us" catalog:eventid="6000qxae">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.065</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qxae/us/1760741502040</originID>
+        <stationCount>23</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx9r&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qx9r">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qx9r/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qx9r/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>174 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx9r/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qx9r" catalog:eventsource="us" catalog:eventid="6000qx9r">
+        <time>
+          <value>2025-08-01T11:57:23.128000Z</value>
+        </time>
+        <latitude>
+          <value>51.7269</value>
+        </latitude>
+        <longitude>
+          <value>160.0431</value>
+        </longitude>
+        <depth>
+          <value>19000.0</value>
+          <uncertainty>1848.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>144</usedPhaseCount>
+          <usedStationCount>144</usedStationCount>
+          <standardError>0.93</standardError>
+          <azimuthalGap>64.0</azimuthalGap>
+          <minimumDistance>1.554</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7840.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx9r/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qx9r" catalog:eventsource="us" catalog:eventid="6000qx9r">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.055</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qx9r/us/1760741502040</originID>
+        <stationCount>32</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx98&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qx98">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qx98/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qx98/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>122 km E of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx98/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qx98" catalog:eventsource="us" catalog:eventid="6000qx98">
+        <time>
+          <value>2025-08-01T10:54:58.030000Z</value>
+        </time>
+        <latitude>
+          <value>50.527</value>
+        </latitude>
+        <longitude>
+          <value>157.8481</value>
+        </longitude>
+        <depth>
+          <value>23000.0</value>
+          <uncertainty>1889.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>175</usedPhaseCount>
+          <usedStationCount>175</usedStationCount>
+          <standardError>0.62</standardError>
+          <azimuthalGap>113.0</azimuthalGap>
+          <minimumDistance>2.549</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8240.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx98/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qx98" catalog:eventsource="us" catalog:eventid="6000qx98">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.056</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qx98/us/1760741502040</originID>
+        <stationCount>31</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx8k&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qx8k">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qx8k/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qx8k/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>106 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx8k/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qx8k" catalog:eventsource="us" catalog:eventid="6000qx8k">
+        <time>
+          <value>2025-08-01T08:34:25.369000Z</value>
+        </time>
+        <latitude>
+          <value>52.8059</value>
+        </latitude>
+        <longitude>
+          <value>160.146</value>
+        </longitude>
+        <depth>
+          <value>28000.0</value>
+          <uncertainty>1852.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>113</usedPhaseCount>
+          <usedStationCount>113</usedStationCount>
+          <standardError>1.33</standardError>
+          <azimuthalGap>85.0</azimuthalGap>
+          <minimumDistance>0.932</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8340.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx8k/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qx8k" catalog:eventsource="us" catalog:eventid="6000qx8k">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.068</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qx8k/us/1760741502040</originID>
+        <stationCount>21</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qx2r&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qx2r">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qx2r/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qx2r/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>167 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx2r/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qx2r" catalog:eventsource="us" catalog:eventid="6000qx2r">
+        <time>
+          <value>2025-07-31T20:36:03.253000Z</value>
+        </time>
+        <latitude>
+          <value>52.5859</value>
+        </latitude>
+        <longitude>
+          <value>160.9806</value>
+        </longitude>
+        <depth>
+          <value>14000.0</value>
+          <uncertainty>1844.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>135</usedPhaseCount>
+          <usedStationCount>135</usedStationCount>
+          <standardError>0.94</standardError>
+          <azimuthalGap>78.0</azimuthalGap>
+          <minimumDistance>1.481</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7730.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qx2r/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qx2r" catalog:eventsource="us" catalog:eventid="6000qx2r">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.071</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qx2r/us/1760741502040</originID>
+        <stationCount>19</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwvb&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwvb">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwvb/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwvb/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>131 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwvb/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwvb" catalog:eventsource="us" catalog:eventid="6000qwvb">
+        <time>
+          <value>2025-07-31T07:42:42.827000Z</value>
+        </time>
+        <latitude>
+          <value>49.871</value>
+        </latitude>
+        <longitude>
+          <value>157.4706</value>
+        </longitude>
+        <depth>
+          <value>43871.0</value>
+          <uncertainty>6198.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>147</usedPhaseCount>
+          <usedStationCount>147</usedStationCount>
+          <standardError>0.93</standardError>
+          <azimuthalGap>58.0</azimuthalGap>
+          <minimumDistance>3.242</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8280.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwvb/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwvb" catalog:eventsource="us" catalog:eventid="6000qwvb">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwvb/us/1760741502040</originID>
+        <stationCount>818</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r2f0&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r2f0">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r2f0/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r2f0/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>140 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r2f0/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000r2f0" catalog:eventsource="us" catalog:eventid="6000r2f0">
+        <time>
+          <value>2025-07-31T05:31:25.745000Z</value>
+        </time>
+        <latitude>
+          <value>52.6604</value>
+        </latitude>
+        <longitude>
+          <value>160.6055</value>
+        </longitude>
+        <depth>
+          <value>48152.0</value>
+          <uncertainty>6868.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>38</usedPhaseCount>
+          <usedStationCount>38</usedStationCount>
+          <standardError>0.8</standardError>
+          <azimuthalGap>65.0</azimuthalGap>
+          <minimumDistance>1.241</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>10560.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r2f0/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000r2f0" catalog:eventsource="us" catalog:eventid="6000r2f0">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.103</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r2f0/us/1760741502040</originID>
+        <stationCount>33</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwuh&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwuh">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwuh/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwuh/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>222 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwuh/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwuh" catalog:eventsource="us" catalog:eventid="6000qwuh">
+        <time>
+          <value>2025-07-31T05:27:14.789000Z</value>
+        </time>
+        <latitude>
+          <value>49.5</value>
+        </latitude>
+        <longitude>
+          <value>158.6499</value>
+        </longitude>
+        <depth>
+          <value>15000.0</value>
+          <uncertainty>1828.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>268</usedPhaseCount>
+          <usedStationCount>268</usedStationCount>
+          <standardError>0.57</standardError>
+          <azimuthalGap>38.0</azimuthalGap>
+          <minimumDistance>3.528</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7820.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwuh/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwuh" catalog:eventsource="us" catalog:eventid="6000qwuh">
+        <mag>
+          <value>6.2</value>
+          <uncertainty>0.059</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwuh/us/1760741502040</originID>
+        <stationCount>28</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwrs&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwrs">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwrs/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwrs/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>161 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwrs/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwrs" catalog:eventsource="us" catalog:eventid="6000qwrs">
+        <time>
+          <value>2025-07-30T23:15:30.093000Z</value>
+        </time>
+        <latitude>
+          <value>52.4118</value>
+        </latitude>
+        <longitude>
+          <value>160.7681</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1685.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>235</usedPhaseCount>
+          <usedStationCount>234</usedStationCount>
+          <standardError>0.9</standardError>
+          <azimuthalGap>30.0</azimuthalGap>
+          <minimumDistance>1.427</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7700.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwrs/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwrs" catalog:eventsource="us" catalog:eventid="6000qwrs">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.04</uncertainty>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwrs/us/1760741502040</originID>
+        <stationCount>61</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwr5&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwr5">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwr5/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwr5/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>144 km SE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwr5/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwr5" catalog:eventsource="us" catalog:eventid="6000qwr5">
+        <time>
+          <value>2025-07-30T21:51:11.837000Z</value>
+        </time>
+        <latitude>
+          <value>52.2321</value>
+        </latitude>
+        <longitude>
+          <value>160.2649</value>
+        </longitude>
+        <depth>
+          <value>17000.0</value>
+          <uncertainty>1784.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>233</usedPhaseCount>
+          <usedStationCount>232</usedStationCount>
+          <standardError>0.69</standardError>
+          <azimuthalGap>100.0</azimuthalGap>
+          <minimumDistance>1.264</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8310.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwr5/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwr5" catalog:eventsource="us" catalog:eventid="6000qwr5">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.057</uncertainty>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwr5/us/1760741502040</originID>
+        <stationCount>30</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwqm&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwqm">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwqm/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwqm/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>223 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwqm/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwqm" catalog:eventsource="us" catalog:eventid="6000qwqm">
+        <time>
+          <value>2025-07-30T21:13:01.237000Z</value>
+        </time>
+        <latitude>
+          <value>49.4969</value>
+        </latitude>
+        <longitude>
+          <value>158.6625</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1719.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>338</usedPhaseCount>
+          <usedStationCount>338</usedStationCount>
+          <standardError>0.51</standardError>
+          <azimuthalGap>31.0</azimuthalGap>
+          <minimumDistance>3.531</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9390.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwqm/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwqm" catalog:eventsource="us" catalog:eventid="6000qwqm">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.11</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwqm/us/1760741502040</originID>
+        <stationCount>8</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwle&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwle">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwle/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwle/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>134 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwle/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwle" catalog:eventsource="us" catalog:eventid="6000qwle">
+        <time>
+          <value>2025-07-30T16:57:34.771000Z</value>
+        </time>
+        <latitude>
+          <value>49.8958</value>
+        </latitude>
+        <longitude>
+          <value>157.5715</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1838.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>196</usedPhaseCount>
+          <usedStationCount>196</usedStationCount>
+          <standardError>0.71</standardError>
+          <azimuthalGap>79.0</azimuthalGap>
+          <minimumDistance>3.204</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5140.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwle/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwle" catalog:eventsource="us" catalog:eventid="6000qwle">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.019</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwle/us/1760741502040</originID>
+        <stationCount>975</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwlc&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwlc">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwlc/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwlc/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>256 km ESE of Ozernovskiy, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwlc/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwlc" catalog:eventsource="us" catalog:eventid="6000qwlc">
+        <time>
+          <value>2025-07-30T16:47:12.839000Z</value>
+        </time>
+        <latitude>
+          <value>50.4224</value>
+        </latitude>
+        <longitude>
+          <value>159.7368</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1818.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>246</usedPhaseCount>
+          <usedStationCount>244</usedStationCount>
+          <standardError>0.89</standardError>
+          <azimuthalGap>44.0</azimuthalGap>
+          <minimumDistance>2.691</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7120.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwlc/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwlc" catalog:eventsource="us" catalog:eventid="6000qwlc">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.019</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwlc/us/1760741502040</originID>
+        <stationCount>1027</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwk1&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwk1">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwk1/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwk1/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>138 km SE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwk1/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwk1" catalog:eventsource="us" catalog:eventid="6000qwk1">
+        <time>
+          <value>2025-07-30T16:07:46.668000Z</value>
+        </time>
+        <latitude>
+          <value>49.6696</value>
+        </latitude>
+        <longitude>
+          <value>157.2746</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1848.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>187</usedPhaseCount>
+          <usedStationCount>187</usedStationCount>
+          <standardError>0.75</standardError>
+          <azimuthalGap>72.0</azimuthalGap>
+          <minimumDistance>3.454</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7800.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwk1/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwk1" catalog:eventsource="us" catalog:eventid="6000qwk1">
+        <mag>
+          <value>6.0</value>
+          <uncertainty>0.047</uncertainty>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwk1/us/1760741502040</originID>
+        <stationCount>44</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwiq&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwiq">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwiq/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwiq/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>135 km ESE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwiq/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwiq" catalog:eventsource="us" catalog:eventid="6000qwiq">
+        <time>
+          <value>2025-07-30T14:47:43.816000Z</value>
+        </time>
+        <latitude>
+          <value>50.0671</value>
+        </latitude>
+        <longitude>
+          <value>157.7699</value>
+        </longitude>
+        <depth>
+          <value>23309.0</value>
+          <uncertainty>4425.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>226</usedPhaseCount>
+          <usedStationCount>226</usedStationCount>
+          <standardError>1.26</standardError>
+          <azimuthalGap>35.0</azimuthalGap>
+          <minimumDistance>3.011</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>3430.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwiq/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwiq" catalog:eventsource="us" catalog:eventid="6000qwiq">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.034</uncertainty>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwiq/us/1760741502040</originID>
+        <stationCount>83</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwfe&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwfe">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwfe/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwfe/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>183 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwfe/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwfe" catalog:eventsource="us" catalog:eventid="6000qwfe">
+        <time>
+          <value>2025-07-30T09:56:13.780000Z</value>
+        </time>
+        <latitude>
+          <value>51.6041</value>
+        </latitude>
+        <longitude>
+          <value>160.0013</value>
+        </longitude>
+        <depth>
+          <value>10445.0</value>
+          <uncertainty>4034.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>301</usedPhaseCount>
+          <usedStationCount>301</usedStationCount>
+          <standardError>0.71</standardError>
+          <azimuthalGap>52.0</azimuthalGap>
+          <minimumDistance>1.646</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7840.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwfe/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwfe" catalog:eventsource="us" catalog:eventid="6000qwfe">
+        <mag>
+          <value>6.1</value>
+          <uncertainty>0.031</uncertainty>
+        </mag>
+        <type>mwb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwfe/us/1760741502040</originID>
+        <stationCount>102</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwex&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwex">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwex/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwex/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>South Sandwich Islands region</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwex/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwex" catalog:eventsource="us" catalog:eventid="6000qwex">
+        <time>
+          <value>2025-07-30T09:24:39.757000Z</value>
+        </time>
+        <latitude>
+          <value>-58.926</value>
+        </latitude>
+        <longitude>
+          <value>-26.2034</value>
+        </longitude>
+        <depth>
+          <value>126300.0</value>
+          <uncertainty>4108.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>121</usedPhaseCount>
+          <usedStationCount>121</usedStationCount>
+          <standardError>0.56</standardError>
+          <azimuthalGap>38.0</azimuthalGap>
+          <minimumDistance>7.335</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8830.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwex/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwex" catalog:eventsource="us" catalog:eventid="6000qwex">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.054</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwex/us/1760741502040</originID>
+        <stationCount>120</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwd7&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwd7">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwd7/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwd7/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>202 km S of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwd7/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwd7" catalog:eventsource="us" catalog:eventid="6000qwd7">
+        <time>
+          <value>2025-07-30T07:34:42.923000Z</value>
+        </time>
+        <latitude>
+          <value>48.8612</value>
+        </latitude>
+        <longitude>
+          <value>156.301</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1755.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>114</usedPhaseCount>
+          <usedStationCount>114</usedStationCount>
+          <standardError>0.94</standardError>
+          <azimuthalGap>54.0</azimuthalGap>
+          <minimumDistance>4.343</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8110.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwd7/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwd7" catalog:eventsource="us" catalog:eventid="6000qwd7">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwd7/us/1760741502040</originID>
+        <stationCount>769</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwb4&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwb4">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwb4/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwb4/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>122 km E of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwb4/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwb4" catalog:eventsource="us" catalog:eventid="6000qwb4">
+        <time>
+          <value>2025-07-30T05:05:15.426000Z</value>
+        </time>
+        <latitude>
+          <value>50.7377</value>
+        </latitude>
+        <longitude>
+          <value>157.8617</value>
+        </longitude>
+        <depth>
+          <value>61759.0</value>
+          <uncertainty>6556.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>119</usedPhaseCount>
+          <usedStationCount>119</usedStationCount>
+          <standardError>0.68</standardError>
+          <azimuthalGap>119.0</azimuthalGap>
+          <minimumDistance>2.341</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>10430.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwb4/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwb4" catalog:eventsource="us" catalog:eventid="6000qwb4">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.019</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwb4/us/1760741502040</originID>
+        <stationCount>1004</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwah&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwah">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwah/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwah/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>152 km S of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwah/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qwah" catalog:eventsource="us" catalog:eventid="6000qwah">
+        <time>
+          <value>2025-07-30T04:25:14.790000Z</value>
+        </time>
+        <latitude>
+          <value>49.3297</value>
+        </latitude>
+        <longitude>
+          <value>156.5319</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1832.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>168</usedPhaseCount>
+          <usedStationCount>168</usedStationCount>
+          <standardError>0.9</standardError>
+          <azimuthalGap>74.0</azimuthalGap>
+          <minimumDistance>3.854</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8110.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwah/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwah" catalog:eventsource="us" catalog:eventid="6000qwah">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.019</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwah/us/1760741502040</originID>
+        <stationCount>977</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw94&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw94">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw94/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw94/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>132 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw94/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qw94" catalog:eventsource="us" catalog:eventid="6000qw94">
+        <time>
+          <value>2025-07-30T03:25:54.468000Z</value>
+        </time>
+        <latitude>
+          <value>51.8385</value>
+        </latitude>
+        <longitude>
+          <value>159.1797</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1833.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>125</usedPhaseCount>
+          <usedStationCount>123</usedStationCount>
+          <standardError>0.87</standardError>
+          <azimuthalGap>94.0</azimuthalGap>
+          <minimumDistance>1.23</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7560.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw94/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw94" catalog:eventsource="us" catalog:eventid="6000qw94">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw94/us/1760741502040</originID>
+        <stationCount>774</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r1gk&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r1gk">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r1gk/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r1gk/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>152 km E of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r1gk/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000r1gk" catalog:eventsource="us" catalog:eventid="6000r1gk">
+        <time>
+          <value>2025-07-30T03:13:56.616000Z</value>
+        </time>
+        <latitude>
+          <value>52.8756</value>
+        </latitude>
+        <longitude>
+          <value>160.8815</value>
+        </longitude>
+        <depth>
+          <value>24949.0</value>
+          <uncertainty>5103.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>61</usedPhaseCount>
+          <usedStationCount>61</usedStationCount>
+          <standardError>0.79</standardError>
+          <azimuthalGap>107.0</azimuthalGap>
+          <minimumDistance>8.015</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>10250.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r1gk/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000r1gk" catalog:eventsource="us" catalog:eventid="6000r1gk">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.066</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r1gk/us/1760741502040</originID>
+        <stationCount>80</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw8r&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw8r">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw8r/us/1760741502040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw8r/us/1760741502040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>146 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw8r/us/1760741502040" catalog:datasource="us" catalog:dataid="us6000qw8r" catalog:eventsource="us" catalog:eventid="6000qw8r">
+        <time>
+          <value>2025-07-30T03:13:25.319000Z</value>
+        </time>
+        <latitude>
+          <value>51.7321</value>
+        </latitude>
+        <longitude>
+          <value>159.309</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1887.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>147</usedPhaseCount>
+          <usedStationCount>146</usedStationCount>
+          <standardError>0.75</standardError>
+          <azimuthalGap>111.0</azimuthalGap>
+          <minimumDistance>1.355</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7240.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw8r/us/1760741502040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw8r" catalog:eventsource="us" catalog:eventid="6000qw8r">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw8r/us/1760741502040</originID>
+        <stationCount>770</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T22:51:42.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw87&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw87">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw87/us/1760668480040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw87/us/1760668480040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>93 km E of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:34:40.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw87/us/1760668480040" catalog:datasource="us" catalog:dataid="us6000qw87" catalog:eventsource="us" catalog:eventid="6000qw87">
+        <time>
+          <value>2025-07-30T02:30:40.490000Z</value>
+        </time>
+        <latitude>
+          <value>50.6541</value>
+        </latitude>
+        <longitude>
+          <value>157.4441</value>
+        </longitude>
+        <depth>
+          <value>37520.0</value>
+          <uncertainty>6464.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>149</usedPhaseCount>
+          <usedStationCount>148</usedStationCount>
+          <standardError>0.81</standardError>
+          <azimuthalGap>74.0</azimuthalGap>
+          <minimumDistance>2.461</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:40.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9390.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw87/us/1760668480040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw87" catalog:eventsource="us" catalog:eventid="6000qw87">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw87/us/1760668480040</originID>
+        <stationCount>861</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:40.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw86&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw86">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw86/us/1760668478040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw86/us/1760668478040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>256 km ESE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:34:38.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw86/us/1760668478040" catalog:datasource="us" catalog:dataid="us6000qw86" catalog:eventsource="us" catalog:eventid="6000qw86">
+        <time>
+          <value>2025-07-30T02:27:30.416000Z</value>
+        </time>
+        <latitude>
+          <value>52.1134</value>
+        </latitude>
+        <longitude>
+          <value>162.0791</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1758.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>109</usedPhaseCount>
+          <usedStationCount>107</usedStationCount>
+          <standardError>0.55</standardError>
+          <azimuthalGap>106.0</azimuthalGap>
+          <minimumDistance>2.283</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:38.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7940.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw86/us/1760668478040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw86" catalog:eventsource="us" catalog:eventid="6000qw86">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.021</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw86/us/1760668478040</originID>
+        <stationCount>835</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:38.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw7h&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw7h">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7h/us/1760668449040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7h/us/1760668449040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>99 km ESE of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:34:09.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw7h/us/1760668449040" catalog:datasource="us" catalog:dataid="us6000qw7h" catalog:eventsource="us" catalog:eventid="6000qw7h">
+        <time>
+          <value>2025-07-30T01:46:52.665000Z</value>
+        </time>
+        <latitude>
+          <value>50.1868</value>
+        </latitude>
+        <longitude>
+          <value>157.2929</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1888.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>113</usedPhaseCount>
+          <usedStationCount>113</usedStationCount>
+          <standardError>0.78</standardError>
+          <azimuthalGap>77.0</azimuthalGap>
+          <minimumDistance>2.935</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:09.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8490.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw7h/us/1760668449040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw7h" catalog:eventsource="us" catalog:eventid="6000qw7h">
+        <mag>
+          <value>5.5</value>
+          <uncertainty>0.025</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7h/us/1760668449040</originID>
+        <stationCount>535</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:09.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw7f&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw7f">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7f/us/1760668446040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7f/us/1760668446040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>136 km ESE of Ozernovskiy, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:34:06.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw7f/us/1760668446040" catalog:datasource="us" catalog:dataid="us6000qw7f" catalog:eventsource="us" catalog:eventid="6000qw7f">
+        <time>
+          <value>2025-07-30T01:38:16.776000Z</value>
+        </time>
+        <latitude>
+          <value>51.0169</value>
+        </latitude>
+        <longitude>
+          <value>158.3088</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1885.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>159</usedPhaseCount>
+          <usedStationCount>158</usedStationCount>
+          <standardError>0.78</standardError>
+          <azimuthalGap>76.0</azimuthalGap>
+          <minimumDistance>2.021</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:06.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8940.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw7f/us/1760668446040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw7f" catalog:eventsource="us" catalog:eventid="6000qw7f">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.029</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw7f/us/1760668446040</originID>
+        <stationCount>420</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:34:06.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw75&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw75">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw75/us/1760668416040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw75/us/1760668416040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>144 km S of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:33:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw75/us/1760668416040" catalog:datasource="us" catalog:dataid="us6000qw75" catalog:eventsource="us" catalog:eventid="6000qw75">
+        <time>
+          <value>2025-07-30T01:03:22.907000Z</value>
+        </time>
+        <latitude>
+          <value>51.6577</value>
+        </latitude>
+        <longitude>
+          <value>158.8083</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1900.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>93</usedPhaseCount>
+          <usedStationCount>92</usedStationCount>
+          <standardError>1.04</standardError>
+          <azimuthalGap>109.0</azimuthalGap>
+          <minimumDistance>1.371</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8220.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw75/us/1760668416040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw75" catalog:eventsource="us" catalog:eventid="6000qw75">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.028</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw75/us/1760668416040</originID>
+        <stationCount>465</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw74&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw74">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw74/us/1760668413040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw74/us/1760668413040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>181 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:33:33.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw74/us/1760668413040" catalog:datasource="us" catalog:dataid="us6000qw74" catalog:eventsource="us" catalog:eventid="6000qw74">
+        <time>
+          <value>2025-07-30T00:58:38.149000Z</value>
+        </time>
+        <latitude>
+          <value>51.585</value>
+        </latitude>
+        <longitude>
+          <value>159.8996</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1813.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>75</usedPhaseCount>
+          <usedStationCount>75</usedStationCount>
+          <standardError>0.98</standardError>
+          <azimuthalGap>60.0</azimuthalGap>
+          <minimumDistance>1.632</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:33.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8260.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw74/us/1760668413040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw74" catalog:eventsource="us" catalog:eventid="6000qw74">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.047</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw74/us/1760668413040</originID>
+        <stationCount>161</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:33.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw6z&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw6z">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6z/us/1760668400040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6z/us/1760668400040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>127 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:33:20.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6z/us/1760668400040" catalog:datasource="us" catalog:dataid="us6000qw6z" catalog:eventsource="us" catalog:eventid="6000qw6z">
+        <time>
+          <value>2025-07-30T00:35:26.004000Z</value>
+        </time>
+        <latitude>
+          <value>51.9131</value>
+        </latitude>
+        <longitude>
+          <value>159.255</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1843.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>70</usedPhaseCount>
+          <usedStationCount>68</usedStationCount>
+          <standardError>0.68</standardError>
+          <azimuthalGap>92.0</azimuthalGap>
+          <minimumDistance>1.172</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:20.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7250.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6z/us/1760668400040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw6z" catalog:eventsource="us" catalog:eventid="6000qw6z">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.045</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6z/us/1760668400040</originID>
+        <stationCount>177</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:20.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw6s&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw6s">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6s/us/1760668382040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6s/us/1760668382040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>126 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:33:02.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6s/us/1760668382040" catalog:datasource="us" catalog:dataid="us6000qw6s" catalog:eventsource="us" catalog:eventid="6000qw6s">
+        <time>
+          <value>2025-07-30T00:16:06.520000Z</value>
+        </time>
+        <latitude>
+          <value>52.1048</value>
+        </latitude>
+        <longitude>
+          <value>159.692</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>871.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>114</usedPhaseCount>
+          <usedStationCount>113</usedStationCount>
+          <standardError>0.97</standardError>
+          <azimuthalGap>36.0</azimuthalGap>
+          <minimumDistance>1.119</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:02.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6670.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6s/us/1760668382040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw6s" catalog:eventsource="us" catalog:eventid="6000qw6s">
+        <mag>
+          <value>6.2</value>
+          <uncertainty>0.023</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6s/us/1760668382040</originID>
+        <stationCount>749</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:02.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r1em&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r1em">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r1em/us/1760668380040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r1em/us/1760668380040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>159 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:33:00.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r1em/us/1760668380040" catalog:datasource="us" catalog:dataid="us6000r1em" catalog:eventsource="us" catalog:eventid="6000r1em">
+        <time>
+          <value>2025-07-30T00:12:20.745000Z</value>
+        </time>
+        <latitude>
+          <value>51.7857</value>
+        </latitude>
+        <longitude>
+          <value>159.8227</value>
+        </longitude>
+        <depth>
+          <value>25681.0</value>
+          <uncertainty>4543.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>46</usedPhaseCount>
+          <usedStationCount>44</usedStationCount>
+          <standardError>0.63</standardError>
+          <azimuthalGap>60.0</azimuthalGap>
+          <minimumDistance>1.433</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:00.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>5470.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r1em/us/1760668380040#magnitude" catalog:datasource="us" catalog:dataid="us6000r1em" catalog:eventsource="us" catalog:eventid="6000r1em">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.131</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r1em/us/1760668380040</originID>
+        <stationCount>28</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:33:00.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw6q&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw6q">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6q/us/1760668378040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6q/us/1760668378040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>125 km SE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-17T02:32:58.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6q/us/1760668378040" catalog:datasource="us" catalog:dataid="us6000qw6q" catalog:eventsource="us" catalog:eventid="6000qw6q">
+        <time>
+          <value>2025-07-30T00:09:58.961000Z</value>
+        </time>
+        <latitude>
+          <value>52.1946</value>
+        </latitude>
+        <longitude>
+          <value>159.8008</value>
+        </longitude>
+        <depth>
+          <value>36622.0</value>
+          <uncertainty>5606.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>82</usedPhaseCount>
+          <usedStationCount>82</usedStationCount>
+          <standardError>0.95</standardError>
+          <azimuthalGap>68.0</azimuthalGap>
+          <minimumDistance>1.087</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:32:58.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8620.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6q/us/1760668378040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw6q" catalog:eventsource="us" catalog:eventid="6000qw6q">
+        <mag>
+          <value>6.9</value>
+          <uncertainty>0.098</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6q/us/1760668378040</originID>
+        <stationCount>10</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-17T02:32:58.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0pw&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0pw">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0pw/us/1760216276040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0pw/us/1760216276040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>177 km ESE of Ozernovskiy, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0pw/us/1760216276040" catalog:datasource="us" catalog:dataid="us6000r0pw" catalog:eventsource="us" catalog:eventid="6000r0pw">
+        <time>
+          <value>2025-07-29T23:54:58.717000Z</value>
+        </time>
+        <latitude>
+          <value>50.8049</value>
+        </latitude>
+        <longitude>
+          <value>158.7836</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1638.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>46</usedPhaseCount>
+          <usedStationCount>45</usedStationCount>
+          <standardError>0.7</standardError>
+          <azimuthalGap>131.0</azimuthalGap>
+          <minimumDistance>2.223</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7170.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0pw/us/1760216276040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0pw" catalog:eventsource="us" catalog:eventid="6000r0pw">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.113</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0pw/us/1760216276040</originID>
+        <stationCount>28</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw6g&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw6g">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6g/us/1760216256040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6g/us/1760216256040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>176 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6g/us/1760216256040" catalog:datasource="us" catalog:dataid="us6000qw6g" catalog:eventsource="us" catalog:eventid="6000qw6g">
+        <time>
+          <value>2025-07-29T23:48:17.525000Z</value>
+        </time>
+        <latitude>
+          <value>51.7599</value>
+        </latitude>
+        <longitude>
+          <value>160.1586</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1886.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>50</usedPhaseCount>
+          <usedStationCount>50</usedStationCount>
+          <standardError>0.64</standardError>
+          <azimuthalGap>122.0</azimuthalGap>
+          <minimumDistance>1.567</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9740.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw6g/us/1760216256040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw6g" catalog:eventsource="us" catalog:eventid="6000qw6g">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.097</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw6g/us/1760216256040</originID>
+        <stationCount>37</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwi3&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwi3">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwi3/us/1760216256040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwi3/us/1760216256040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>138 km S of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwi3/us/1760216256040" catalog:datasource="us" catalog:dataid="us6000qwi3" catalog:eventsource="us" catalog:eventid="6000qwi3">
+        <time>
+          <value>2025-07-29T23:46:37.801000Z</value>
+        </time>
+        <latitude>
+          <value>49.4264</value>
+        </latitude>
+        <longitude>
+          <value>156.1591</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1864.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>86</usedPhaseCount>
+          <usedStationCount>86</usedStationCount>
+          <standardError>0.53</standardError>
+          <azimuthalGap>112.0</azimuthalGap>
+          <minimumDistance>3.811</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>12220.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwi3/us/1760216256040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwi3" catalog:eventsource="us" catalog:eventid="6000qwi3">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.076</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwi3/us/1760216256040</originID>
+        <stationCount>62</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwhh&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwhh">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhh/us/1760216256040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhh/us/1760216256040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>155 km S of Severo-Kuril’sk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwhh/us/1760216256040" catalog:datasource="us" catalog:dataid="us6000qwhh" catalog:eventsource="us" catalog:eventid="6000qwhh">
+        <time>
+          <value>2025-07-29T23:40:27.004000Z</value>
+        </time>
+        <latitude>
+          <value>49.2988</value>
+        </latitude>
+        <longitude>
+          <value>156.5191</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1867.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>52</usedPhaseCount>
+          <usedStationCount>52</usedStationCount>
+          <standardError>0.74</standardError>
+          <azimuthalGap>86.0</azimuthalGap>
+          <minimumDistance>3.886</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>10140.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwhh/us/1760216256040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwhh" catalog:eventsource="us" catalog:eventid="6000qwhh">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.104</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhh/us/1760216256040</originID>
+        <stationCount>33</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0qg&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0qg">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qg/us/1760216277040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qg/us/1760216277040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>184 km ESE of Ozernovskiy, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0qg/us/1760216277040" catalog:datasource="us" catalog:dataid="us6000r0qg" catalog:eventsource="us" catalog:eventid="6000r0qg">
+        <time>
+          <value>2025-07-29T23:38:56.675000Z</value>
+        </time>
+        <latitude>
+          <value>51.0614</value>
+        </latitude>
+        <longitude>
+          <value>159.0547</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>1817.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>67</usedPhaseCount>
+          <usedStationCount>66</usedStationCount>
+          <standardError>0.83</standardError>
+          <azimuthalGap>68.0</azimuthalGap>
+          <minimumDistance>1.981</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8010.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0qg/us/1760216277040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0qg" catalog:eventsource="us" catalog:eventid="6000r0qg">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.101</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qg/us/1760216277040</originID>
+        <stationCount>36</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0ql&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0ql">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0ql/us/1760216277040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0ql/us/1760216277040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>103 km SE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0ql/us/1760216277040" catalog:datasource="us" catalog:dataid="us6000r0ql" catalog:eventsource="us" catalog:eventid="6000r0ql">
+        <time>
+          <value>2025-07-29T23:38:28.604000Z</value>
+        </time>
+        <latitude>
+          <value>52.3144</value>
+        </latitude>
+        <longitude>
+          <value>159.5397</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1890.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>39</usedPhaseCount>
+          <usedStationCount>39</usedStationCount>
+          <standardError>0.98</standardError>
+          <azimuthalGap>58.0</azimuthalGap>
+          <minimumDistance>0.893</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9240.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0ql/us/1760216277040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0ql" catalog:eventsource="us" catalog:eventid="6000r0ql">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.12</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0ql/us/1760216277040</originID>
+        <stationCount>25</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qwhj&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qwhj">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhj/us/1760216256040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhj/us/1760216256040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>165 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwhj/us/1760216256040" catalog:datasource="us" catalog:dataid="us6000qwhj" catalog:eventsource="us" catalog:eventid="6000qwhj">
+        <time>
+          <value>2025-07-29T23:37:34.403000Z</value>
+        </time>
+        <latitude>
+          <value>51.5092</value>
+        </latitude>
+        <longitude>
+          <value>159.126</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1863.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>84</usedPhaseCount>
+          <usedStationCount>83</usedStationCount>
+          <standardError>0.83</standardError>
+          <azimuthalGap>53.0</azimuthalGap>
+          <minimumDistance>1.545</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7470.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qwhj/us/1760216256040#magnitude" catalog:datasource="us" catalog:dataid="us6000qwhj" catalog:eventsource="us" catalog:eventid="6000qwhj">
+        <mag>
+          <value>6.0</value>
+          <uncertainty>0.078</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qwhj/us/1760216256040</originID>
+        <stationCount>62</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:36.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0qc&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0qc">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qc/us/1760216277040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qc/us/1760216277040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>124 km ENE of Ozernovskiy, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0qc/us/1760216277040" catalog:datasource="us" catalog:dataid="us6000r0qc" catalog:eventsource="us" catalog:eventid="6000r0qc">
+        <time>
+          <value>2025-07-29T23:36:01.341000Z</value>
+        </time>
+        <latitude>
+          <value>51.7541</value>
+        </latitude>
+        <longitude>
+          <value>158.2503</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1824.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>80</usedPhaseCount>
+          <usedStationCount>79</usedStationCount>
+          <standardError>0.75</standardError>
+          <azimuthalGap>84.0</azimuthalGap>
+          <minimumDistance>1.295</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8280.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0qc/us/1760216277040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0qc" catalog:eventsource="us" catalog:eventid="6000r0qc">
+        <mag>
+          <value>6.0</value>
+          <uncertainty>0.078</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0qc/us/1760216277040</originID>
+        <stationCount>62</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:57.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0q2&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0q2">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0q2/us/1760216276040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0q2/us/1760216276040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>128 km SSE of Vilyuchinsk, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0q2/us/1760216276040" catalog:datasource="us" catalog:dataid="us6000r0q2" catalog:eventsource="us" catalog:eventid="6000r0q2">
+        <time>
+          <value>2025-07-29T23:34:53.625000Z</value>
+        </time>
+        <latitude>
+          <value>51.8593</value>
+        </latitude>
+        <longitude>
+          <value>159.121</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1848.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>88</usedPhaseCount>
+          <usedStationCount>87</usedStationCount>
+          <standardError>0.57</standardError>
+          <azimuthalGap>66.0</azimuthalGap>
+          <minimumDistance>1.201</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9040.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0q2/us/1760216276040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0q2" catalog:eventsource="us" catalog:eventid="6000r0q2">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.075</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0q2/us/1760216276040</originID>
+        <stationCount>65</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:56.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0xt&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0xt">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xt/us/1760216278040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xt/us/1760216278040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>137 km ENE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0xt/us/1760216278040" catalog:datasource="us" catalog:dataid="us6000r0xt" catalog:eventsource="us" catalog:eventid="6000r0xt">
+        <time>
+          <value>2025-07-29T23:31:25.020000Z</value>
+        </time>
+        <latitude>
+          <value>53.665</value>
+        </latitude>
+        <longitude>
+          <value>160.4312</value>
+        </longitude>
+        <depth>
+          <value>42734.0</value>
+          <uncertainty>7084.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>61</usedPhaseCount>
+          <usedStationCount>61</usedStationCount>
+          <standardError>0.96</standardError>
+          <azimuthalGap>86.0</azimuthalGap>
+          <minimumDistance>1.247</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>8100.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0xt/us/1760216278040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0xt" catalog:eventsource="us" catalog:eventid="6000r0xt">
+        <mag>
+          <value>5.9</value>
+          <uncertainty>0.083</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xt/us/1760216278040</originID>
+        <stationCount>54</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0xw&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0xw">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xw/us/1760216278040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xw/us/1760216278040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>78 km SE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0xw/us/1760216278040" catalog:datasource="us" catalog:dataid="us6000r0xw" catalog:eventsource="us" catalog:eventid="6000r0xw">
+        <time>
+          <value>2025-07-29T23:30:44.566000Z</value>
+        </time>
+        <latitude>
+          <value>52.6498</value>
+        </latitude>
+        <longitude>
+          <value>159.5787</value>
+        </longitude>
+        <depth>
+          <value>25423.0</value>
+          <uncertainty>5640.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>58</usedPhaseCount>
+          <usedStationCount>57</usedStationCount>
+          <standardError>0.7</standardError>
+          <azimuthalGap>67.0</azimuthalGap>
+          <minimumDistance>0.676</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7890.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0xw/us/1760216278040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0xw" catalog:eventsource="us" catalog:eventid="6000r0xw">
+        <mag>
+          <value>6.1</value>
+          <uncertainty>0.088</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0xw/us/1760216278040</originID>
+        <stationCount>49</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000r0y5&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000r0y5">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000r0y5/us/1760216278040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000r0y5/us/1760216278040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>94 km SE of Petropavlovsk-Kamchatsky, Russia</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0y5/us/1760216278040" catalog:datasource="us" catalog:dataid="us6000r0y5" catalog:eventsource="us" catalog:eventid="6000r0y5">
+        <time>
+          <value>2025-07-29T23:30:03.032000Z</value>
+        </time>
+        <latitude>
+          <value>52.5195</value>
+        </latitude>
+        <longitude>
+          <value>159.7031</value>
+        </longitude>
+        <depth>
+          <value>16375.0</value>
+          <uncertainty>5247.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>30</usedPhaseCount>
+          <usedStationCount>29</usedStationCount>
+          <standardError>0.67</standardError>
+          <azimuthalGap>121.0</azimuthalGap>
+          <minimumDistance>0.815</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9450.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000r0y5/us/1760216278040#magnitude" catalog:datasource="us" catalog:dataid="us6000r0y5" catalog:eventsource="us" catalog:eventid="6000r0y5">
+        <mag>
+          <value>6.3</value>
+          <uncertainty>0.116</uncertainty>
+        </mag>
+        <type>mb</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000r0y5/us/1760216278040</originID>
+        <stationCount>29</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:58.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw60&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw60">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw60/us/1760216255040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw60/us/1760216255040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>2025 Kamchatka Peninsula, Russia Earthquake</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2026-07-31T16:16:07.061000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw60/us/1760216255040" catalog:datasource="us" catalog:dataid="us6000qw60" catalog:eventsource="us" catalog:eventid="6000qw60">
+        <time>
+          <value>2025-07-29T23:24:52.483000Z</value>
+        </time>
+        <latitude>
+          <value>52.4948</value>
+        </latitude>
+        <longitude>
+          <value>160.2395</value>
+        </longitude>
+        <depth>
+          <value>35000.0</value>
+          <uncertainty>1784.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>251</usedPhaseCount>
+          <usedStationCount>251</usedStationCount>
+          <standardError>0.73</standardError>
+          <azimuthalGap>30.0</azimuthalGap>
+          <minimumDistance>1.102</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:35.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>6780.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw60/us/1760216255040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw60" catalog:eventsource="us" catalog:eventid="6000qw60">
+        <mag>
+          <value>8.8</value>
+          <uncertainty>0.018</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw60/us/1760216255040</originID>
+        <stationCount>303</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:35.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw59&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw59">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw59/us/1760216254040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw59/us/1760216254040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>6 km SE of Comapa, Guatemala</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw59/us/1760216254040" catalog:datasource="us" catalog:dataid="us6000qw59" catalog:eventsource="us" catalog:eventid="6000qw59">
+        <time>
+          <value>2025-07-29T21:25:23.916000Z</value>
+        </time>
+        <latitude>
+          <value>14.0663</value>
+        </latitude>
+        <longitude>
+          <value>-89.8711</value>
+        </longitude>
+        <depth>
+          <value>10000.0</value>
+          <uncertainty>967.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>129</usedPhaseCount>
+          <usedStationCount>126</usedStationCount>
+          <standardError>0.81</standardError>
+          <azimuthalGap>38.0</azimuthalGap>
+          <minimumDistance>0.186</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7300.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw59/us/1760216254040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw59" catalog:eventsource="us" catalog:eventid="6000qw59">
+        <mag>
+          <value>5.7</value>
+          <uncertainty>0.044</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw59/us/1760216254040</originID>
+        <stationCount>50</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw58&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw58">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw58/us/1760216254040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw58/us/1760216254040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>4 km WNW of Jerez, Guatemala</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw58/us/1760216254040" catalog:datasource="us" catalog:dataid="us6000qw58" catalog:eventsource="us" catalog:eventid="6000qw58">
+        <time>
+          <value>2025-07-29T21:21:47.885000Z</value>
+        </time>
+        <latitude>
+          <value>14.0993</value>
+        </latitude>
+        <longitude>
+          <value>-89.791</value>
+        </longitude>
+        <depth>
+          <value>11913.0</value>
+          <uncertainty>3615.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>113</usedPhaseCount>
+          <usedStationCount>110</usedStationCount>
+          <standardError>0.55</standardError>
+          <azimuthalGap>61.0</azimuthalGap>
+          <minimumDistance>0.196</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>7380.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw58/us/1760216254040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw58" catalog:eventsource="us" catalog:eventid="6000qw58">
+        <mag>
+          <value>5.6</value>
+          <uncertainty>0.078</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw58/us/1760216254040</originID>
+        <stationCount>16</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:34.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw1a&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw1a">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw1a/us/1760216253040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw1a/us/1760216253040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>south of the Fiji Islands</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw1a/us/1760216253040" catalog:datasource="us" catalog:dataid="us6000qw1a" catalog:eventsource="us" catalog:eventid="6000qw1a">
+        <time>
+          <value>2025-07-29T17:53:40.918000Z</value>
+        </time>
+        <latitude>
+          <value>-23.4497</value>
+        </latitude>
+        <longitude>
+          <value>178.858</value>
+        </longitude>
+        <depth>
+          <value>553000.0</value>
+          <uncertainty>1906.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>157</usedPhaseCount>
+          <usedStationCount>156</usedStationCount>
+          <standardError>0.83</standardError>
+          <azimuthalGap>17.0</azimuthalGap>
+          <minimumDistance>5.726</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>10130.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw1a/us/1760216253040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw1a" catalog:eventsource="us" catalog:eventid="6000qw1a">
+        <mag>
+          <value>6.6</value>
+          <uncertainty>0.043</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw1a/us/1760216253040</originID>
+        <stationCount>52</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+    <event publicID="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qw18&amp;format=quakeml" catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000qw18">
+      <preferredOriginID>quakeml:earthquake.usgs.gov/product/origin/us6000qw18/us/1760216253040</preferredOriginID>
+      <preferredMagnitudeID>quakeml:earthquake.usgs.gov/product/origin/us6000qw18/us/1760216253040#magnitude</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description>
+        <text>south of the Fiji Islands</text>
+        <type>earthquake name</type>
+      </description>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw18/us/1760216253040" catalog:datasource="us" catalog:dataid="us6000qw18" catalog:eventsource="us" catalog:eventid="6000qw18">
+        <time>
+          <value>2025-07-29T17:46:37.267000Z</value>
+        </time>
+        <latitude>
+          <value>-23.5094</value>
+        </latitude>
+        <longitude>
+          <value>178.9624</value>
+        </longitude>
+        <depth>
+          <value>550000.0</value>
+          <uncertainty>1903.0</uncertainty>
+        </depth>
+        <quality>
+          <usedPhaseCount>173</usedPhaseCount>
+          <usedStationCount>168</usedStationCount>
+          <standardError>0.81</standardError>
+          <azimuthalGap>25.0</azimuthalGap>
+          <minimumDistance>5.798</minimumDistance>
+        </quality>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>horizontal uncertainty</preferredDescription>
+          <horizontalUncertainty>9980.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:earthquake.usgs.gov/product/origin/us6000qw18/us/1760216253040#magnitude" catalog:datasource="us" catalog:dataid="us6000qw18" catalog:eventsource="us" catalog:eventid="6000qw18">
+        <mag>
+          <value>5.8</value>
+          <uncertainty>0.056</uncertainty>
+        </mag>
+        <type>mww</type>
+        <originID>quakeml:earthquake.usgs.gov/product/origin/us6000qw18/us/1760216253040</originID>
+        <stationCount>31</stationCount>
+        <evaluationMode>manual</evaluationMode>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2025-10-11T20:57:33.040000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
