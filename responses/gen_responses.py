@@ -18,12 +18,12 @@ for obs in df["name"].values:
     inv = Inventory(networks=[], source="ON")
     net = Network(stations=[], code="BM", description="OBS from RSBR-Mar proj", start_date=UTCDateTime("2025-09-25T00:00:00"))
     sta = Station(code=obs, latitude=stla, longitude=stlo, elevation=stel, creation_date=UTCDateTime())
-    
-    cha_Z = Channel(code="Z", latitude=stla, longitude=stlo, elevation=stel, depth=0, azimuth=0.0, dip=-90.0, location_code="", sample_rate=100)
-    cha_X = Channel(code="X", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100)
-    cha_Y = Channel(code="Y", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100)
-    cha_H = Channel(code="H", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100)
-    
+
+    cha_Z = Channel(code="HHZ", latitude=stla, longitude=stlo, elevation=stel, depth=0, azimuth=0.0, dip=-90.0, location_code="", sample_rate=100)
+    cha_X = Channel(code="HH2", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100) # SSPARQ convention: HH2 will be treated as HHE
+    cha_Y = Channel(code="HH2", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100) # SSPARQ convention: HH1 will be treated as HHN
+    cha_H = Channel(code="HDH", latitude=stla, longitude=stlo, elevation=stel, depth=0, location_code="", sample_rate=100)
+
     cha_Z.response = resp
     cha_X.response = resp
     cha_Y.response = resp
@@ -34,5 +34,5 @@ for obs in df["name"].values:
     sta.channels.append(cha_H)
     net.stations.append(sta)
     inv.networks.append(net)
-    
+
     inv.write("BM.%s.xml"%obs, format="STATIONXML")
