@@ -98,7 +98,7 @@ def trim_event(args):
         net = st[0].stats.network
         sta = st[0].stats.station
         cha = st[0].stats.channel
-        if win_max.strftime("%j") > P_time.strftime("%j"):
+        if win_max.strftime("%j") > ot.strftime("%j"):
             try:
                 next_day = (ot+86400).date
                 file2 = glob("%s/%s*%s*"%(data_path, str(next_day), cha))[0]
