@@ -57,7 +57,7 @@ def mkdir(folder):
         os.mkdir(folder)
 
 def trim_event(args):
-    window_len = 120
+    window_len = 150
 
     event, inv, data_path = args
     #stla, stlo = inv[0][0].latitude, inv[0][0].longitude
