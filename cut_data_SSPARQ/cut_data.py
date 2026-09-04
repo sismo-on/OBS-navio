@@ -8,14 +8,14 @@ from glob import glob
 def quakeml_to_dataframe(quakeml_file):
     # Read the QuakeML file using ObsPy
     catalog = read_events(quakeml_file)
-    
+
     entries = []
-    
+
     for event in catalog:
         # Extract basic event information
         origin = event.preferred_origin() or event.origins[0]
         magnitude = event.preferred_magnitude() or event.magnitudes[0]
-                
+
         if event.focal_mechanisms:
             fm = event.focal_mechanisms[0]
             if fm.moment_tensor:
@@ -47,7 +47,7 @@ def quakeml_to_dataframe(quakeml_file):
                 'depth': origin.depth / 1000,  # Convert from m to km
                 'mag': magnitude.mag,
                 'magType': magnitude.magnitude_type})
-        
+
     # Convert to DataFrame
     df = pd.DataFrame(entries)
     return df
@@ -98,7 +98,7 @@ def trim_event(args):
         net = st[0].stats.network
         sta = st[0].stats.station
         cha = st[0].stats.channel
-        if win_max.strftime("%j") == P_time.strftime("%j"):
+        if win_max.strftime("%j") > P_time.strftime("%j"):
             try:
                 next_day = (ot+86400).date
                 file2 = glob("%s/%s*%s*"%(data_path, str(next_day), cha))[0]
