@@ -123,5 +123,5 @@ if __name__ == "__main__":
     for event in df.itertuples(index=False):
         inputs.append([event, inv, data_path])
 
-    for inp in inputs[:5]:
+    for inp in inputs:
         trim_event(inp)

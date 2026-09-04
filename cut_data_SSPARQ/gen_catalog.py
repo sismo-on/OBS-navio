@@ -7,7 +7,7 @@ client = Client("USGS")
 #endtime = UTCDateTime("2026-09-03T00:00:00")
 starttime = UTCDateTime("2025-07-29T00:00:00")
 endtime = UTCDateTime("2025-08-04T00:00:00")
-minmag = 5.5
+minmag = 6.0
 
 catalog = client.get_events(starttime=starttime, endtime=endtime, minmagnitude=minmag)
 
